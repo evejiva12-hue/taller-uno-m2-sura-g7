@@ -134,6 +134,10 @@ console.log(invitados)
 invitados.splice(1,1)
 console.log(invitados)
 
+//19.Tablero de Juego
+let tablero = ["Inicio", null, null, null, null, "Fin"]
+tablero.fill("Casilla Vacía",1,5)
+console.log(tablero)
 
 
 
