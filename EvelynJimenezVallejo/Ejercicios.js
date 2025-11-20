@@ -98,6 +98,14 @@ console.log(receta)
 receta.push("Paso 4: Servir")
 console.log(receta)
 
+//14.Invertir y Reemplazar
+let palabras = ["uno", "dos", "cuatro"]
+palabras.reverse()
+palabras.splice(0,1)
+console.log(palabras)
+palabras.splice(0,0,"tres")
+console.log(palabras)
+
 
 
 
