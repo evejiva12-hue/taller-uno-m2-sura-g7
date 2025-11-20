@@ -69,7 +69,10 @@ console.log(productos)
  estudiantes.sort()
  console.log(estudiantes)
 
-
+//10.Vaciar un Arreglo
+let puntuaciones = [100, 85, 92, 78]
+puntuaciones.fill(0,0)
+console.log(puntuaciones)
 
 
 
