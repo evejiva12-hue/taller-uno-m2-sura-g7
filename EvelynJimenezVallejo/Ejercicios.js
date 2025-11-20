@@ -82,7 +82,21 @@ carrito.unshift("Zapatos")
 console.log(carrito)
 carrito.splice(1,1)
 console.log(carrito)
+
+//12.Control de Versiones
+let commits = ["v1.0", "v1.1"]
+commits.push("v1.2")
+console.log(commits)
+commits.splice(2,1)
+console.log(commits)
+commits.splice(2,0,"v1.2-corregido")
  
+//13.Receta de Cocina
+let receta = ["Paso 2: Mezclar ingredientes", "Paso 3: Hornear"]
+receta.unshift("Paso 1: Pre-calentar horno")
+console.log(receta)
+receta.push("Paso 4: Servir")
+console.log(receta)
 
 
 
