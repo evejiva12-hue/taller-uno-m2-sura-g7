@@ -127,6 +127,13 @@ console.log(feed)
 feed.pop()
 console.log(feed)
 
+//18.Lista de Invitados VIP
+let invitados = ["Carlos", "Beatriz", "David", "Ana"]
+invitados.sort()
+console.log(invitados)
+invitados.splice(1,1)
+console.log(invitados)
+
 
 
 
