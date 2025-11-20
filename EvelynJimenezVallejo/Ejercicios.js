@@ -113,6 +113,13 @@ console.log(equipo)
 equipo.push("Pedro (Dev)","Luisa (Dev)")
 console.log(equipo)
 
+//16.Puestos de Estacionamiento
+let parking = ["CarroA", "Libre", "Libre", "CarroB"]
+parking.splice(0,1)
+console.log(parking)
+parking.splice(0,2,"moto1","moto2")
+console.log(parking)
+
 
 
 
