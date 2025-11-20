@@ -64,6 +64,12 @@ console.log(productos)
 productos.splice(2,0,"Mouse Nuevo")
 console.log(productos)
 
+//9.Orden Alfabético
+ let estudiantes = ["Zapata", "Alvarez", "Gomez", "Bernal"]
+ estudiantes.sort()
+ console.log(estudiantes)
+
+
 
 
 
