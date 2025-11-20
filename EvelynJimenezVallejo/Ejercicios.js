@@ -45,6 +45,12 @@ let fila = ["Ana", "Luis", "Carlos", "Maria"]
  fila.splice(1,0, "Jorge")
  console.log(fila)
 
+ //6.Mazo de Cartas
+ let mazo = ["As", "Rey", "Reina", "Jota"]
+mazo.reverse()
+console.log(mazo)
+let cartaArriba= mazo.shift()
+console.log(cartaArriba)
 
 
 
