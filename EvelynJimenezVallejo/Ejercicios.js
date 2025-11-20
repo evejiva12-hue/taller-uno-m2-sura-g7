@@ -74,6 +74,16 @@ let puntuaciones = [100, 85, 92, 78]
 puntuaciones.fill(0,0)
 console.log(puntuaciones)
 
+//11. Carrito de Compras
+let carrito = []
+carrito.push("Camisa","Pantalón")
+console.log(carrito)
+carrito.unshift("Zapatos")
+console.log(carrito)
+carrito.splice(1,1)
+console.log(carrito)
+ 
+
 
 
 
