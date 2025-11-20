@@ -120,6 +120,14 @@ console.log(parking)
 parking.splice(0,2,"moto1","moto2")
 console.log(parking)
 
+//17.Manejo de Feed (Red Social)
+let feed = ["Foto de Ana", "Video de Juan", "Noticia de Empresa"]
+feed.unshift("Alerta de Sistema")
+console.log(feed)
+feed.pop()
+console.log(feed)
+
+
 
 
 
