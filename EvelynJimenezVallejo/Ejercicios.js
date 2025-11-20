@@ -57,6 +57,13 @@ let asientos = ["Ocupado", "Libre", "Libre", "Libre", "Ocupado"]
 asientos.fill("Reservado", 1, 4)
 console.log(asientos)
 
+//8.Reemplazar Elemento
+let productos = ["Monitor", "Teclado", "Mouse Roto", "Webcam"]
+productos.splice(2,1)
+console.log(productos)
+productos.splice(2,0,"Mouse Nuevo")
+console.log(productos)
+
 
 
 
