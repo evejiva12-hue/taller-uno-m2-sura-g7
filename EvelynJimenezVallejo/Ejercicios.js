@@ -13,7 +13,13 @@ console.log(compras)*/
 //2. Pila de Tareas Pendientes (LIFO)
 let tareas = ["Revisar emails"]
 tareas.unshift("Llamar al cliente")
-tareas.unshift("Preparar reporte")
-tareas.splice(0,1) 
-tareas.spliceÇ(0,1)
 console.log(tareas)
+tareas.unshift("Preparar reporte")
+console.log(tareas)
+//shift elimina primer arreglo
+tareas.shift()
+console.log(tareas)
+tareas.shift()
+console.log(tareas)
+
+
