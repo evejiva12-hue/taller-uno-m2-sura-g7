@@ -52,6 +52,12 @@ console.log(mazo)
 let cartaArriba= mazo.shift()
 console.log(cartaArriba)
 
+//7.Gestión de Asientos de Cine
+let asientos = ["Ocupado", "Libre", "Libre", "Libre", "Ocupado"]
+asientos.fill("Reservado", 1, 4)
+console.log(asientos)
+
+
 
 
 
